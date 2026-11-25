@@ -104,7 +104,7 @@ RoboGuide-AI/
 ├── docs/figures/             # architecture and observed metrics/quality plots
 ├── results/                  # reproducible JSON, CSV and example conversations
 ├── docs/CONTRIBUTIONS_TEMPLATE.md
-├── FN_JoseTuozzo_TungTungTungSahar_ITAI2377.pdf
+├── TungTungTungSahar_ITAI2377.pdf
 └── pyproject.toml
 ```
 
