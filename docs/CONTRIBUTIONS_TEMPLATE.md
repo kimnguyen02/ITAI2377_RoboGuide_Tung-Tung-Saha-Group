@@ -1,40 +1,101 @@
-# Team contribution verification 
+# Team Contributions and Responsibilities
+
+## RoboGuide AI — ITAI 2377 Final Project
+
+**Institution:** Houston City College  
+**Team:** Tung Tung Tung Sahar  
+**Semester:** Fall 2026
 
 ## José Tuozzo — System Architecture, Integration & Evaluation
 
-Main responsibility: Make sure all project components work together as one complete system.
+### Primary Responsibilities
 
-Specific responsibilities:
-- System architecture: Design the overall system structure and determine how data preprocessing, retrieval, evaluation, and the assistant interact.
-- Corpus and schema integration: Coordinate the integration of the prepared knowledge base into the system and ensure that document records follow a consistent data structure.
-- Pipeline integration: Connect the data preparation, retrieval, and response components into a functional workflow.
-- Retrieval evaluation: Compare baseline and hybrid retrieval methods using metrics such as Recall@3 and MRR@5.
-- End-to-end testing: Test the complete workflow, from submitting a user question to receiving an answer with supporting references.
-- Technical documentation: Review and edit technical documentation, architecture descriptions, and final project materials.
+System architecture, technical integration, experimental evaluation, reproducibility, and final project documentation.
+
+### Areas of Contribution
+
+- System Architecture: Design of the overall RoboGuide architecture, connecting data preprocessing, feature engineering, retrieval, response generation, and evaluation.
+- Pipeline Integration: Integration of the individual system components into a functional technical support assistant.
+- Feature Engineering: Integration of eight interpretable, domain-specific retrieval features.
+- Experimental Evaluation: Comparison of baseline TF-IDF and hybrid retrieval using Recall@3, MRR@5, status accuracy, intent accuracy, and response latency.
+- Performance Analysis: Interpretation of experimental results, feature importance, ablation analysis, and individual evaluation cases.
+- System Validation: End-to-end testing, automated testing, and reproducibility verification.
+- Google Colab: Notebook configuration, dependency management, execution, visualization, and presentation of experimental results.
+- Technical Documentation: Organization and revision of project documentation, architecture descriptions, README, and final academic materials.
+- Repository Maintenance: Organization and updating of project resources for accessibility and reproducibility.
 
 ## Kim Nguyen — Data Acquisition, Preprocessing & Quality Assurance
 
-Main responsibility: Build and maintain the reliable knowledge base that RoboGuide uses to answer questions.
+### Primary Responsibilities
 
-Specific responsibilities:
-- Official-source collection: Identify and collect relevant information from official SunFounder PiDog documentation, FAQs, GitHub repositories, and Robot HAT documentation.
-- Source manifest management: Record source URLs, document titles, source IDs, and provenance information to maintain traceability.
-- Hardware version tagging: Identify and label documentation according to compatible PiDog hardware versions and subsystems.
-- Data parsing and cleaning: Extract useful technical information, remove unnecessary website content, standardize text, and organize records into a consistent format.
-- Duplicate detection: Identify repeated documentation and remove duplicate records.
-- Conflict review: Check for inconsistent or conflicting instructions across sources and flag information requiring further verification.
-- Data quality validation: Check for missing fields, incorrect metadata, invalid records, and source traceability.
+Technical documentation collection, knowledge base organization, preprocessing, and data quality assessment.
 
-## Huu Huynh — AI Retrieval, Response Generation & User Interface
+### Areas of Contribution
 
-Main responsibility: Develop the mechanisms that allow RoboGuide to understand questions, find relevant information, and communicate answers to users.
+- Source Identification: Identification of relevant technical resources from official SunFounder documentation, FAQs, GitHub repositories, and Robot HAT documentation.
+- Knowledge Base Organization: Structuring technical information into standardized documentation records.
+- Source Traceability: Organization of document identifiers, titles, source URLs, and provenance information.
+- Hardware Classification: Categorization of documentation according to PiDog hardware versions and technical subsystems.
+- Data Preprocessing: Text normalization, duplicate identification, missing-value handling, and metadata standardization.
+- Data Quality Assessment: Review of preprocessing requirements and data consistency.
+- Documentation Review: Organization and review of technical source material used by the assistant.
+- Repository Collaboration: Maintenance of the shared GitHub repository and coordination of project resources.
 
-Specific responsibilities:
-- Embedding development: Explore and implement text embeddings to represent questions and documentation as numerical vectors.
-- Retrieval and indexing: Develop the document retrieval and indexing mechanisms to identify relevant technical information.
-- Entity and feature extraction: Identify important technical entities, API names, error messages, and other features that improve retrieval relevance.
-- Prompt engineering: Design prompts and response instructions to help the assistant provide relevant, evidence-grounded answers.
-- Response generation: Develop the answer-generation workflow, including source references and appropriate abstention when evidence is insufficient.
-- User interface development: Create the interface through which students submit questions and receive answers.
-- User testing: Test the assistant with representative PiDog questions and review usability, response relevance, and potential issues.
+## Huu Huynh — Retrieval, Response Generation & User Interface
 
+### Primary Responsibilities
+
+Technical information retrieval, evidence-grounded responses, interface development, and assistant usability.
+
+### Areas of Contribution
+
+- Text Representation: Word-level and character-level TF-IDF representations for technical documentation retrieval.
+- Retrieval Mechanisms: Organization of document matching and relevance-ranking approaches.
+- Domain-Specific Features: Technical entities, API identifiers, error signatures, documentation titles, and hardware compatibility.
+- Response Generation: Extractive responses based on retrieved technical documentation.
+- Source Referencing: Presentation of supporting documentation and source URLs.
+- Evidence Assessment: Response behavior for insufficient evidence, ambiguous questions, and unsupported technical requests.
+- Interactive Interface: Gradio-based interaction with the RoboGuide assistant.
+- Usability Assessment: Representative technical questions and evaluation of response presentation.
+
+## Collective Project Objectives
+
+The team worked toward the following shared project objectives:
+
+- Development of a functional domain-specific technical assistant.
+- Integration of a structured robotics knowledge base.
+- Implementation of data preprocessing and quality assessment.
+- Development of eight interpretable retrieval features.
+- Comparison of baseline and hybrid retrieval approaches.
+- Implementation of evidence-grounded technical responses.
+- Development of an interactive user interface.
+- Documentation of experimental findings and scientific limitations.
+- Preparation of a reproducible academic project.
+
+## Project Deliverables
+
+The final project includes:
+
+- RoboGuide AI Python implementation.
+- Curated technical knowledge base.
+- Data preprocessing pipeline.
+- Eight engineered retrieval features.
+- Evaluation benchmark containing 43 questions.
+- Baseline and hybrid retrieval comparisons.
+- Feature importance and ablation analysis.
+- Experimental figures and visualizations.
+- Automated software tests.
+- Interactive Gradio interface.
+- Executed Google Colab notebook.
+- Final academic report.
+- GitHub repository and technical documentation.
+
+## Contribution Statement
+
+The responsibilities described above reflect the project's division of work and its implemented technical scope. Individual authorship and completed activities should be confirmed by each team member.
+
+The project prioritizes reproducibility, transparency, interpretability, and responsible use of artificial intelligence in robotics technical support.
+
+---
+
+**RoboGuide AI | ITAI 2377 | Fall 2026 | Tung Tung Tung Sahar**
